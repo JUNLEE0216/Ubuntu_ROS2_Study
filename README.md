@@ -1,0 +1,28 @@
+# 🖥ROS2_Study
+## 📝구성
+#### ✔my_first_package
+      📁 my_first_package
+         ✏ __init__.py
+         ✏ dist_turtle_action_server.py
+         ✏ my_custom_publisher.py  
+         ✏ my_publisher.py  
+         ✏ my_service_server.py
+         ✏ my_subscriber.py
+         ✏ turtle_cmd_and_pose.py  -- 거북이 여러마리 만드는 노드
+      📁 params
+         ✏ turtlesim.yaml
+      📁 resource
+         ✏ my_first_package
+      📁 test
+         ✏ test_copyright.py
+         ✏ test_flake8.py
+         ✏ test_pep257.py
+      📄 package.xml
+      📄 setup.cfg
+      📄 setup.py
+#### ✔my_first_package_msgs
+      📁 msg
+      📁 srv
+      📄 CMakeLists.txt
+      📄 package.xml
+#### ✔.gitignore
